@@ -1,0 +1,5 @@
+---
+applications:
+  - name: gopong
+    memory: 256M
+    instances: 1
