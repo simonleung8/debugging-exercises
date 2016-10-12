@@ -1,0 +1,6 @@
+---
+applications:
+- name: app-needs-memory
+  instances: 1
+  random-route: true
+  memory: 32M
