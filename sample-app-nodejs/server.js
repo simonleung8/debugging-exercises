@@ -22,6 +22,8 @@ app.get( '/', function ( req, res) {
   })
 })
 
-app.listen( 4000 )
-console.log("Server running at http://127.0.0.1:4000/");
+var port = 4000
+app.listen( port )
+
+console.log("Server running at http://127.0.0.1:"+ port);
 
