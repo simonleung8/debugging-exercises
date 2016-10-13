@@ -12,7 +12,7 @@ func bigBytes() *[]byte {
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello")
+	fmt.Fprintf(w, "Hello, app is running")
 }
 
 func main() {
