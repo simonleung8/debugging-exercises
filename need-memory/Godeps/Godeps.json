@@ -1,6 +1,8 @@
 {
-	"ImportPath": "github.com/cloudfoundry/dev-cert/FDTR00801",
+	"ImportPath": "github.com/simonleung8/debugging-exercises/need-memory",
 	"GoVersion": "go1.6",
-	"GodepVersion": "v67",
+	"Packages": [
+		"./..."
+	],
 	"Deps": []
 }
